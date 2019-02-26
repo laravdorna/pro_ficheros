@@ -12,6 +12,7 @@ import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import lectura.Leer;
+import utilidades.PedirDatos;
 
 /**
  *
@@ -72,6 +73,15 @@ public class EX13_Ficheros {
 //escribir en un fichero de numeros
         obxEscribir.escribirNumeros("num");
 
-    }
+//        //escribir obxetoalumno
+//        for (int i = 0; i < 4; i++) {
+//            Alumno al = new Alumno(PedirDatos.cadena("nome"), PedirDatos.entero("nota"));
+//            alumnos.add(al);
+//        }
+//        obxEscribir.escribirLineas("nombre", alumnos);
+//     
+//    }
 
+obxEscribir.engadir("nombre");
+    
 }
